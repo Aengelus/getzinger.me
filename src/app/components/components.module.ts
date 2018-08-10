@@ -5,9 +5,11 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { AppRoutingModule } from '../app-routing.module';
 import { HomeComponent } from './pages/home/home.component';
-import { AboutComponent } from './pages/about/about.component';
+import { CVComponent } from './pages/cv/cv.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ContactComponent } from './pages/contact/contact.component';
+import { ProjectsComponent } from './pages/projects/projects.component';
+import { PrivateComponent } from './pages/private/private.component';
 
 @NgModule({
   imports: [
@@ -19,9 +21,11 @@ import { ContactComponent } from './pages/contact/contact.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    AboutComponent,
+    CVComponent,
     NotFoundComponent,
-    ContactComponent
+    ContactComponent,
+    ProjectsComponent,
+    PrivateComponent
   ],
   exports: [
     LayoutComponent
