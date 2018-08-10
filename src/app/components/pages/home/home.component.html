@@ -1,13 +1,13 @@
 <div class="container col">
 <div class="row box jumbotron">
   <div class="col">
-    <p class="h1">Hey, ich bin Sascha Getzinger</p>
+    <p class="h1">Hey, ich bin {{ myJson.basics?.name }}</p>
     Ich studiere derzeit "International Petroleum Engineering" und verbringe meine Freizeit um mich im Bereich des Finanzwesens so wie Software und Technology Entwicklungen weiterzubilden.
     <br/>
     Was du hier findest? Ein paar 
     <ul>
       <li>Was ich mache?</li>
-        <ul><li>asdf</li></ul>
+        <ul><li>{{ myJson.basics?.email }}</li></ul>
       <li>Was ich mache?</li>
         <ul><li>asdf</li></ul>
       <li>Was ich mache?</li>
