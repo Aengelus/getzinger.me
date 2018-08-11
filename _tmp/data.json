@@ -1,30 +1,33 @@
 {
     "basics": {
-        "name": "Sascha Getzinger",
-        "label": "Developer / Engineer",
-      "picture": "./self.JPG",
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "neutralthoughts",
+          "url": ""
+        },
+        {
+          "network": "SoundCloud",
+          "username": "dandymusicnl",
+          "url": "https://soundcloud.com/dandymusicnl"
+        }
+      ],
+      "name": "Sascha Getzinger",
+      "label": "Developer / Engineer",
+      "picture": "",
       "email": "getzinger.sascha@gmail.com",
       "phone": "+43 (699) 190 90 351",
       "location": {
-          "address": "Fischergasse 10/5",
-          "postalCode": "8700",
-          "city": "Leoben",
-          "countryCode": "AT",
-          "region": "Styria"
-        },
-        "profiles": [
-        {
-            "network": "LinkedIn",
-            "username": "",
-            "url": ""
-        }
-        ]
+        "address": "Fischergasse 10/5",
+        "postalCode": "8700",
+        "city": "Leoben",
+        "countryCode": "AT",
+        "region": "Styria"
+      }
     },
     "skills": [
       {
         "name": "Web Development",
-        "img": "../../../../assets/placeholder.svg",
-        "description": "Hello world",
         "level": "Master",
         "keywords": [
           "HTML",
@@ -33,36 +36,12 @@
         ]
       },
       {
-        "name": "Web Development",
-        "img": "../../../../assets/placeholder.svg",
-        "description": "",
+        "name": "Compression",
         "level": "Master",
         "keywords": [
-          "HTML",
-          "CSS",
-          "Javascript"
-        ]
-      },
-      {
-        "name": "Web Development",
-        "img": "../../../../assets/placeholder.svg",
-        "description": "",
-        "level": "Master",
-        "keywords": [
-          "HTML",
-          "CSS",
-          "Javascript"
-        ]
-      },
-      {
-        "name": "Web Development",
-        "img": "../../../../assets/placeholder.svg",
-        "description": "",
-        "level": "Master",
-        "keywords": [
-          "HTML",
-          "CSS",
-          "Javascript"
+          "Mpeg",
+          "MP4",
+          "GIF"
         ]
       }
     ],
@@ -72,53 +51,24 @@
         "basics": {
           "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinal!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!"
         },
-        "projects": [
+        "website": [
           {
-            "name": "Personal Page",
+            "name":"Personal Page",
             "url": "https://getzinger.me",
-            "description": "",
-            "technology": ""
+            "description":""
+          },
+          {
+            "name":"Personal Page",
+            "url": "https://getzinger.me",
+            "description":""
           }
         ],
         "experience": [{
             "job": {
-                "type": "Arbeitserfahrung",
-                "details": [
+                "type": "work",
+                "detail": [
                     {
                 "company": "Pied Piper",
-                "position": "CEO/President",
-                "website": "https://piedpiper.com",
-                "startDate": "2013-12-01",
-                "endDate": "2014-12-01",
-                "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-                "highlights": [
-                "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-                "Successfully won Techcrunch Disrupt",
-                "Optimized an algorithm that holds the current world record for Weisman Scores"
-                        ]
-                    },
-                    {
-                        "company": "Pied Piper",
-                        "position": "CEO/President",
-                        "website": "https://piedpiper.com",
-                        "startDate": "2013-12-01",
-                        "endDate": "2014-12-01",
-                        "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
-                        "highlights": [
-                        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-                        "Successfully won Techcrunch Disrupt",
-                        "Optimized an algorithm that holds the current world record for Weisman Scores"
-                                ]
-                            }
-                ]
-            }
-            },
-            {
-            "job": {
-                "type": "Schule und Ausbildung",
-                "details": [
-                    {
-                "company": "Piper Pied",
                 "position": "CEO/President",
                 "website": "https://piedpiper.com",
                 "startDate": "2013-12-01",
@@ -134,9 +84,9 @@
             }
             },
             {
-            "job": {
-                    "type": "Weitere Tätigkeiten",
-                    "details": [
+                "job": {
+                    "type": "Education",
+                    "detail": [
                         {
                     "company": "Piper Pied",
                     "position": "CEO/President",
@@ -152,91 +102,65 @@
                         }
                     ]
                 }
-            }
-            ],
-        "languages": [
+                }],
+        "work": {
+            "type": "work",
+            "detail": [
           {
-            "name": "Deutsch",
-            "fluency": "Muttersprache",
-            "level": "C2",
-            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_map_of_Germany.svg/2000px-Flag_map_of_Germany.svg.png",
-            "certificate": [
-
-            ]
-          },
-          {
-            "name": "English",
-            "fluency": "Fließend",
-            "level": "C1",
-            "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/Flag_map_of_the_United_Kingdom_1801-1922.svg",
-            "certificate": [
-              "BEC Vantage Cambridge Certificate"
-            ]
-          },
-          {
-            "name": "Russisch",
-            "fluency": "Grundkentnisse",
-            "level": "A1",
-            "img": "https://www.publicdomainpictures.net/pictures/50000/velka/map-of-russia-in-russian-flag.jpg",
-            "certificate": [
-
-            ]
-          },
-          {
-            "name": "Spanisch",
-            "fluency": "Grundkenntnisse",
-            "level": "A1",
-            "img": "https://www.publicdomainpictures.net/pictures/50000/velka/map-of-spain-and-flag.jpg",
-            "certificate": [
-
+            "company": "Pied Piper",
+            "position": "CEO/President",
+            "website": "https://piedpiper.com",
+            "startDate": "2013-12-01",
+            "endDate": "2014-12-01",
+            "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+            "highlights": [
+              "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+              "Successfully won Techcrunch Disrupt",
+              "Optimized an algorithm that holds the current world record for Weisman Scores"
             ]
         },
-        {
-            "name": "Arabisch",
-            "fluency": "Angefangen",
-            "level": "A0",
-            "img": "https://upload.wikimedia.org/wikipedia/commons/e/ef/A_map_of_the_Arab_World_with_flags.png",
-            "certificate": [
-
+          {
+            "company": "Pied Piper",
+            "position": "CEO/President",
+            "website": "https://piedpiper.com",
+            "startDate": "2013-12-01",
+            "endDate": "2014-12-01",
+            "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+            "highlights": [
+              "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+              "Successfully won Techcrunch Disrupt",
+              "Optimized an algorithm that holds the current world record for Weisman Scores"
             ]
+          }
+        ]
+        },
+        "education": [
+          {
+            "institution": "University of Oklahoma",
+            "area": "Information Technology",
+            "studyType": "Bachelor",
+            "startDate": "2011-06-01",
+            "endDate": "2014-01-01",
+            "gpa": "4.0",
+            "courses": [
+              "DB1101 - Basic SQL",
+              "CS2011 - Java Introduction"
+            ]
+          }
+        ],
+        "languages": [
+          {
+            "language": "English",
+            "fluency": "Native speaker"
           }
         ],
         "interests": [
           {
-            "name": "Snowboarden",
-            "subtext": "Wintersport",
-            "description": "",
-            "education": [
-              "Snowboardlehrer Anwärter"
-            ],
-            "img": "../../../../assets/placeholder.svg"
-          },
-          {
-            "name": "Turnen",
-            "subtext": "Wintersport",
-            "description": "",
-            "education": [
-              "Snowboardlehrer Anwärter"
-            ],
-            "img": "../../../../assets/placeholder.svg"
-          },
-          {
-            "name": "Karate",
-            "subtext": "Kampfsport",
-            "description": "",
-            "education": [
-              "Snowboardlehrer Anwärter"
-            ],
-            "img": "../../../../assets/placeholder.svg"
-          },
-          {
-            "name": "Snowboarden",
-            "subtext": "Wintersport",
-            "description": "",
-            "education": [
-              "Snowboardlehrer Anwärter"
-            ],
-            "img": "../../../../assets/placeholder.svg"
+            "name": "Wildlife",
+            "keywords": [
+              "Ferrets",
+              "Unicorns"
+            ]
           }
         ]
       },

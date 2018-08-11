@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient, HttpErrorResponse } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+import { HttpErrorResponse } from '@angular/common/http';
 
 @Component({
-  selector: 'app-private',
-  templateUrl: './private.component.html',
-  styleUrls: ['./private.component.sass']
+  selector: 'app-experience',
+  templateUrl: './experience.component.html',
+  styleUrls: ['./experience.component.sass']
 })
-export class PrivateComponent implements OnInit {
+export class ExperienceComponent implements OnInit {
 
   constructor (private httpService: HttpClient) { }
   myJson: any = [];

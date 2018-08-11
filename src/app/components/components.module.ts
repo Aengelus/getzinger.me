@@ -10,6 +10,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { PrivateComponent } from './pages/private/private.component';
+import { ExperienceComponent } from './pages/experience/experience.component';
 
 @NgModule({
   imports: [
@@ -25,7 +26,8 @@ import { PrivateComponent } from './pages/private/private.component';
     NotFoundComponent,
     ContactComponent,
     ProjectsComponent,
-    PrivateComponent
+    PrivateComponent,
+    ExperienceComponent
   ],
   exports: [
     LayoutComponent

@@ -1,0 +1,31 @@
+<div class="container col">
+  <h2 class="text-center col">Fähigkeiten</h2>
+  <div class="card-deck">
+    <div class="card text-centered bg-info" *ngFor="let skill of myJson?.skills; let i = index" [attr.data-index]="i">
+      <div class="card-header">asdfasdf</div>
+      <img class="card-img-top img-fluid" src="{{ skill.img }}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{ skill.name }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">{{ skill.level }}</h6>
+        <p class="card-text">{{ skill.description }}</p>
+        <p class="card-text">Keywords: <small class="text-muted">{{ skill.keywords }}</small></p>
+      </div>
+    </div>
+  </div>
+  <p></p>
+  <h2 class="text-center col">Sprachen</h2>
+  <div class="card-deck">
+    <div class="card" *ngFor="let language of myJson.locals && myJson?.locals[0].languages; let i = index" [attr.data-index]="i">
+      <div class="card-header">{{ language.name }}</div>
+      <img class="card-img-top img-fluid" src="{{ language.img }}" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{ language.fluency }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Sprachlevel: {{ language.level }}</h6>
+        <p class="card-text" *ngIf="language.certificate!=0"> Zertifikate: </p>
+        <ul *ngFor="let cert of language.certificate">
+          <li>{{ cert }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

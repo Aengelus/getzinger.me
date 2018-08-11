@@ -1,3 +1,16 @@
-<p>
-  private works!
-</p>
+<div class="container col">
+    <h2 class="text-center col" *ngIf="false">Fähigkeiten</h2>
+    <div class="card-deck">
+      <div class="card text-centered bg-info" *ngFor="let interest of myJson?.locals && myJson?.locals[0]?.interests; let i = index" [attr.data-index]="i">
+        <div class="card-header">{{ interest.name }}</div>
+        <img class="card-img-top img-fluid" src="{{ interest.img }}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">{{ interest.name }}</h5>
+          <h6 class="card-subtitle mb-2 text-muted">{{ interest.subtext }}</h6>
+          <p class="card-text">{{ interest.description }}</p>
+          <p class="card-text" *ngIf="interest.education!=0">Ausbildung: <small class="text-muted">{{ interest.education }}</small></p>
+        </div>
+      </div>
+    </div>
+    <div style="margin-bottom:100px"></div>
+  </div>

@@ -1,142 +1,43 @@
 <div class="container col box">
   <div class="row ">
-    <div class="col-md-3 nopadding">
+    <div class="col-md-3 text-center">
       <img class="img-fluid box" src="../../../../assets/self.JPG" />
-      <h3>
-        Sascha Getzinger
-      </h3>
-      <br />
-      <div class="text-left">
-        <h3 class="">
-          asdfsdfadfs
-        </h3>
-        <p>
-          <i class="fa fa-briefcase fa-fw points"></i>Designer
-        </p>
-        <p>
-          <i class="fa fa-briefcase fa-fw points"></i>Designer
-        </p>
-        <p>
-            <i class="fa fa-briefcase fa-fw points"></i>Designer
-          </p>
-          <p>
-            <i class="fa fa-briefcase fa-fw points"></i>Designer
-        </p>
-      </div>
+          {{ myJson.basics?.name }} <br/>
+          {{ myJson.basics?.label }} <br/>
+          {{ myJson.basics?.phone }} <br/>
+          {{ myJson.basics?.email }} <br/>
+          {{ myJson.basics?.location.address }} <br/>
+          {{ myJson.basics?.location.postalCode }} {{ myJson.basics?.location.city }} <br/>
+          <p></p>
+          Language: {{ myJson.locals && myJson.locals[0].lng }}
     </div>
     <div class="col ">
-      <h2 class="align-self-center">
-        Professional Experience 
-      </h2>
-      <div class="container col-md-12 ">
-        <h4 class="align-self-center">
-          Ohh my Gosh
-        </h4>
+      <div *ngFor="let chapter of myJson.locals && myJson?.locals[0]?.experience">
+          <h2 class="align-self-center"> {{ chapter.job.type }} </h2>
+          <div class="container col-md-12" *ngFor="let detail of chapter.job.details">
+            <h4 class="align-self-center">
+              <a href="{{ detail.website }}" target="_blank">{{ detail.company }}</a>
+            </h4>
         <div class="row ">
           <div class="col-md-3 ">
-            Seit 10/20014
+            {{ detail.startDate }} - {{ detail.endDate }}
           </div>
           <div class="col ">
             <h5>
-              Montanuniversität Leoben
+              {{ detail.position }}
             </h5>
-            <ul>
+            {{ detail.summary }}
+            <ul *ngFor="let highlight of detail.highlights">
               <li>
-                International Study program in Petroleum Engineering
+                {{ highlight }}
               </li>
-              <ul>
-                <li>
-                  Ø 2,5 äquivalent zu US-Grade B und GPA 3.1
-                </li>
-              </ul>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <h2 class="align-self-center">
-        Professional Experience 
-      </h2>
-      <div class="container col-md-12 ">
-        <h4 class="align-self-center">
-          Ohh my Gosh
-        </h4>
-        <div class="row ">
-          <div class="col-md-3 ">
-            Seit 10/20014
-          </div>
-          <div class="col ">
-            <h5>
-              Montanuniversität Leoben
-            </h5>
-            <ul>
-              <li>
-                International Study program in Petroleum Engineering
-              </li>
-              <ul>
-                <li>
-                  Ø 2,5 äquivalent zu US-Grade B und GPA 3.1
-                </li>
-              </ul>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <h2 class="align-self-center">
-        Professional Experience 
-      </h2>
-      <div class="container col-md-12 ">
-        <h4 class="align-self-center">
-          Ohh my Gosh
-        </h4>
-        <div class="row ">
-          <div class="col-md-3 ">
-            Seit 10/20014
-          </div>
-          <div class="col ">
-            <h5>
-              Montanuniversität Leoben
-            </h5>
-            <ul>
-              <li>
-                International Study program in Petroleum Engineering
-              </li>
-              <ul>
-                <li>
-                  Ø 2,5 äquivalent zu US-Grade B und GPA 3.1
-                </li>
-              </ul>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <h2 class="align-self-center">
-        Professional Experience 
-      </h2>
-      <div class="container col-md-12 ">
-        <h4 class="align-self-center">
-          Ohh my Gosh
-        </h4>
-        <div class="row ">
-          <div class="col-md-3 ">
-            Seit 10/20014
-          </div>
-          <div class="col ">
-            <h5>
-              Montanuniversität Leoben
-            </h5>
-            <ul>
-              <li>
-                International Study program in Petroleum Engineering
-              </li>
-              <ul>
-                <li>
-                  Ø 2,5 äquivalent zu US-Grade B und GPA 3.1
-                </li>
-              </ul>
             </ul>
           </div>
         </div>
       </div>
     </div>
+
+    </div>
   </div>
+  <div class=""></div>
 </div>
