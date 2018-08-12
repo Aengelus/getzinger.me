@@ -9,22 +9,22 @@
           {{ myJson.basics?.location.address }} <br/>
           {{ myJson.basics?.location.postalCode }} {{ myJson.basics?.location.city }} <br/>
           <p></p>
-          Language: {{ myJson.locals && myJson.locals[0].lng }}
+          Language: {{ myJson && myJson.lng }}
     </div>
     <div class="col ">
-      <div *ngFor="let chapter of myJson.locals && myJson?.locals[0]?.experience">
-          <h2 class="align-self-center"> {{ chapter.job.type }} </h2>
+      <div *ngFor="let chapter of myJson && myJson?.experience">
+          <h2 class="align-self-center"> <kbd>{{ chapter.job.type }}</kbd> </h2>
           <div class="container col-md-12" *ngFor="let detail of chapter.job.details">
-            <h4 class="align-self-center">
+            <h4 class="">
               <a href="{{ detail.website }}" target="_blank">{{ detail.company }}</a>
             </h4>
-        <div class="row ">
-          <div class="col-md-3 ">
-            {{ detail.startDate }} - {{ detail.endDate }}
+        <div class="row">
+          <div class="col-md-3 row">
+            <div class="pull-left">{{ detail.startDate }}</div><div class="col text-center">-</div><div class="pull-right">{{ detail.endDate }}</div>
           </div>
           <div class="col ">
             <h5>
-              {{ detail.position }}
+              <samp>{{ detail.position }}</samp>
             </h5>
             {{ detail.summary }}
             <ul *ngFor="let highlight of detail.highlights">
