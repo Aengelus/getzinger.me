@@ -29,6 +29,8 @@
     "popper.js": "^1.14.4",
     "rxjs": "^6.0.0",
     "socks": "^2.2.1",
+    "typed.js": "^2.0.9",
+    "typeit": "^5.10.6",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {

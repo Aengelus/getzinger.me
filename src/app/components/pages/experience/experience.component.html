@@ -1,14 +1,14 @@
-<div class="container col">
-  <h1 class="text-center col"><span class="badge badge-light">Skillset</span></h1>
+<div class="container col box">
+  <h2 class="text-center col customHeader">Skillset</h2>
   <div class="card-deck">
     <div class="card text-center" *ngFor="let skill of myJson?.skills; let i = index" [attr.data-index]="i">
-      <div class="card-header mb-2 text-center"><kbd>{{ skill.level }}</kbd></div>
+      <div class="card-header mb-2 text-center">{{ skill.level }}</div>
       <img class="card-img-top img-fluid" src="{{ skill.img }}" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title h4">{{ skill.name }}</h5>
         <p class="card-text">{{ skill.description }}</p>
       </div>
-        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
+        <button class="btn" type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
             Zeig mir deinen<br/>
             Tech Stack
           </button>
@@ -20,8 +20,8 @@
     </div>
   </div>
   <p></p>
-  <h1 class="text-center col"><span class="badge badge-light">Sprachkenntnisse</span></h1>
-  <div class="card-deck">
+  <h2 class="text-center col customHeader">Sprachkenntnisse</h2>
+  <div class="card-deck flag">
     <div class="card text-center" *ngFor="let language of myJson && myJson?.languages; let i = index" [attr.data-index]="i">
       <div class="card-header mb-2"><kbd>{{ language.name }}</kbd></div>
       <img class="card-img-top img-fluid" src="{{ language.img }}" alt="Card image cap">

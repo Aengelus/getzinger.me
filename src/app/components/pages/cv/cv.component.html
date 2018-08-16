@@ -1,42 +1,43 @@
 <div class="container col box">
-  <div class="row ">
-    <div class="col-md-3 text-center">
-      <img class="img-fluid box" src="../../../../assets/self.JPG" />
-          {{ myJson.basics?.name }} <br/>
-          {{ myJson.basics?.label }} <br/>
-          {{ myJson.basics?.phone }} <br/>
-          {{ myJson.basics?.email }} <br/>
-          {{ myJson.basics?.location.address }} <br/>
-          {{ myJson.basics?.location.postalCode }} {{ myJson.basics?.location.city }} <br/>
-          <p></p>
-          Language: {{ myJson && myJson.lng }}
+  <div class="row">
+    <div class="col-md-2 text-center business-card pull-left">
+      <img class="img-fluid" src="../../../../assets/self.JPG" />
+      <ul class="description">
+        <li> {{ myJson.basics?.name }} </li>
+        <li> {{ myJson.basics?.label }} </li>
+        <li> {{ myJson.basics?.phone }} </li>
+        <li> {{ myJson.basics?.email }} </li>
+        <li> {{ myJson.basics?.location.address }} </li>
+        <li> {{ myJson.basics?.location.postalCode }} {{ myJson.basics?.location.city }} </li>
+      </ul>
     </div>
-    <div class="col ">
-      <div *ngFor="let chapter of myJson && myJson?.experience">
-          <h2 class="align-self-center"> <kbd>{{ chapter.job.type }}</kbd> </h2>
-          <div class="container col-md-12" *ngFor="let detail of chapter.job.details">
-            <h4 class="">
-              <a href="{{ detail.website }}" target="_blank">{{ detail.company }}</a>
-            </h4>
-        <div class="row">
-          <div class="col-md-3 row">
-            <div class="pull-left">{{ detail.startDate }}</div><div class="col text-center">-</div><div class="pull-right">{{ detail.endDate }}</div>
+    <div class="col pull-right">
+      <div class="chapter" *ngFor="let chapter of myJson && myJson?.experience">
+        <h2 class="customHeader text-center">{{ chapter.job.type }}</h2>
+        <div class="container col-md-12" *ngFor="let detail of chapter.job.details">
+          <div class="chapter-item">
+          <a href="{{ detail.website }}" target="_blank">
+            <h4 class="customHeader chapter-header">{{ detail.company }}</h4>
+          </a>
+          <div class="row">
+            <div class="col-md-3 row chapter-date">
+              <div class="pull-left">{{ detail.startDate }}</div><div class="col text-center">-</div><div class="pull-right">{{ detail.endDate }}</div>
+            </div>
+            <div class="col chapter-description">
+              <h5 class="head">
+                <samp>{{ detail.position }}</samp>
+              </h5>
+              {{ detail.summary }}
+              <ul class="chapter-highlights" *ngFor="let highlight of detail.highlights">
+                <li>
+                  {{ highlight }}
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="col ">
-            <h5>
-              <samp>{{ detail.position }}</samp>
-            </h5>
-            {{ detail.summary }}
-            <ul *ngFor="let highlight of detail.highlights">
-              <li>
-                {{ highlight }}
-              </li>
-            </ul>
           </div>
         </div>
       </div>
-    </div>
-
     </div>
   </div>
   <div class=""></div>

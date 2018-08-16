@@ -256,14 +256,14 @@
       "name": "Deutsch",
       "fluency": "Muttersprache",
       "level": "C2",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Flag_map_of_Germany.svg/2000px-Flag_map_of_Germany.svg.png",
+      "img": "../../../../assets/2000px-Flag_map_of_Germany.svg.png",
       "certificate": []
     },
     {
       "name": "English",
       "fluency": "Fließend",
       "level": "C1",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/1/18/Flag_map_of_the_United_Kingdom_1801-1922.svg",
+      "img": "../../../../assets/USA_Flag_Map.svg",
       "certificate": [
         "BEC Vantage Cambridge Certificate"
       ]
@@ -272,21 +272,21 @@
       "name": "Russisch",
       "fluency": "Grundkentnisse",
       "level": "A1",
-      "img": "https://www.publicdomainpictures.net/pictures/50000/velka/map-of-russia-in-russian-flag.jpg",
+      "img": "../../../../assets/Flag-map_of_Russia.png",
       "certificate": []
     },
     {
       "name": "Spanisch",
       "fluency": "Grundkenntnisse",
       "level": "A1",
-      "img": "https://www.publicdomainpictures.net/pictures/50000/velka/map-of-spain-and-flag.jpg",
+      "img": "../../../../assets/800px-Spain-flag-map-plus-ultra.png",
       "certificate": []
     },
     {
       "name": "Arabisch",
       "fluency": "Angefangen",
       "level": "A0",
-      "img": "https://upload.wikimedia.org/wikipedia/commons/e/ef/A_map_of_the_Arab_World_with_flags.png",
+      "img": "../../../../assets/Arab_World_with_flags.png",
       "certificate": []
     }
   ],

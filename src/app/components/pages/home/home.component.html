@@ -1,20 +1,30 @@
 <div class="container col">
 <!--  <h1>{{fun()}}</h1>  -->
-<div class="row box jumbotron">
-  <div class="col">
-    <samp class="typewriter">
+<div class="col-md-4 shell">
+  <div class="row shell-header">
+    <i class="fa fa-window-close" aria-hidden="true"></i>
+    <i class="fa fa-window-minimize" aria-hidden="true"></i>
+    <i class="fa fa-window-maximize" aria-hidden="true"></i>
+    <span class="shell-title">sascha@getzinger.me: ~</span>
+<!--    <div class="col pull-right test"></div> -->
+  </div>
+  <div class="row shell-body">
+    <div class="pull-left shell-text">sascha@getzinger.me:<span class="tild">~</span><span class="dollar">$</span><span class="type-it"></span></div>
+  </div>
+</div>
+<div class="row box">
+  <div class="col" >
+    <samp class="">
       <p>Hey Leute. Ich bin der Sascha und freue mich euch auf meiner Seite willkommen zu heißen.</p><br/><br/>
       <p>Ich studiere "International Study Program in Petroleum Engineering" und habe eine rießengroße Leidenschaft für den Bereich Finanzwesen und Kochen.</p><br/>
       <p>Wenn ihr noch mehr über mich erfahren wollt, nutzt doch einfach den Button.</p>
       <br/><br/><br/>
       <div class="">
-        <button type="button" class="btn btn-light pull-left" routerLink="/cv">Zeige mir mal deinen Lebenslauf</button>
+        <button type="button" class="btn btn-light pull-left" (click)="sendEvent()" routerLink="/cv">Zeige mir mal deinen Lebenslauf</button>
         <button type="button" class="btn btn-light pull-right" routerLink="/private">Was machst du den privat?</button>
       </div>
-      
-      <div class="test"></div>
-
+      <button (click)= 'sendEvent()'>Click Me</button>
     </samp>
-  </div>
+    </div>
 </div>
 </div>
