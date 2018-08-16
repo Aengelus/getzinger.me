@@ -1,7 +1,7 @@
 <div class="container col box">
   <div class="card-deck">
     <div class="card text-center" *ngFor="let interest of myJson && myJson?.interests; let i = index" [attr.data-index]="i">
-      <div class="card-header text-center"><kbd>{{ interest.subtext }}</kbd></div>
+      <div class="card-header text-center">{{ interest.subtext }}</div>
       <img class="card-img-top img-fluid" src="{{ interest.img }}" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title h4">{{ interest.name }}</h5>
