@@ -6,7 +6,7 @@
         <li> {{ myJson.basics?.name }} </li>
         <li> {{ myJson.basics?.label }} </li>
         <li> {{ myJson.basics?.phone }} </li>
-        <li> {{ myJson.basics?.email }} </li>
+        <li><a href='mailto:{{myJson.basics?.email}}?subject=Contact via getzinger.info'>{{ myJson.basics?.email }}</a></li>
         <li> {{ myJson.basics?.location.address }} </li>
         <li> {{ myJson.basics?.location.postalCode }} {{ myJson.basics?.location.city }} </li>
       </ul>
