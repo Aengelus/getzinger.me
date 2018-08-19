@@ -1,5 +1,7 @@
 #navbarContent
   margin-left: 20px
+  @media only screen and (max-width: 800px)
+    margin-left: 10px
 
 #refHolder
   //background-color: red
@@ -9,21 +11,19 @@
   margin-right: 10px
   color: grey
   text-shadow: 8px 8px #000000
+  @media only screen and (max-width: 800px)
+    font-size: 70%
+    padding: 4px
   &:hover, &:active
     color: lightgrey
     //text-shadow: 2px 2px rgba(0, 0, 0, 0.4)
 
 li
-  //text-shadow: 6px 6px #000000
   &:hover
       color: lightgrey
-      //text-shadow: 2px 2px rgba(0, 0, 0, 0.4)
-      //font-size: 1.3em
   .active
       color: lightgrey
-      //text-shadow: 0px 0px rgba(0, 0, 0, 0.4)
-      //font-size: 1.3em !important
 
 .navbar
-  //background: rgba(255,255,255,0.7)
-  box-shadow: 4px 8px 6px rgba(255,255,255, 0.8)
+  box-shadow: 4px 8px 32px rgba(255,255,255, 0.6)
+  min-width: 300px

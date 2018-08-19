@@ -13,9 +13,14 @@ import Typed from 'typeit';
 export class HomeComponent implements OnInit {
 
   options = {
-    speed: 100,
+    strings: ['Student', 'Developer', 'Financial Engineer', 'Petroleum Engineer', 'Early Adopter'],
+    speed: 150,
     autoStart: false,
-    afterComplete: function () { this.displayed = true; }
+//    afterComplete: function () { this.displayed = true; },
+    loop: true,
+    breakLines: false,
+    lifeLike: true,
+    nextStringDelay: 1000
   };
   typed: Typed;
 
@@ -26,29 +31,16 @@ export class HomeComponent implements OnInit {
 
   ngOnInit () {
 
-    this.typed = new Typed('.type-it', this.options)
-    .type('whoami')
-    .break()
-    .pause(1000)
-    .type('<div><i class="fa fa-spinner fa-pulse fa-fw"></i>')
-    .pause(500)
-    .type('<i class="fa fa-spinner fa-pulse fa-fw"></i>')
-    .pause(500)
-    .type('<i class="fa fa-spinner fa-pulse fa-fw"></i>')
-    .pause(500)
-    .type('<i class="fa fa-spinner fa-pulse fa-fw"></i></div>')
-    .pause(500)
-    .break()
-    .break()
-    .type('<div class="inner"></div>');
-
-    this.typed = new Typed('.test', this.options)
+    this.typed = new Typed('.type-it', this.options);
+/*    .pause(2000)
     .type('Developer')
+    .pause(500)
+    .delete()
+    .type('Student')
+    .pause(500)
     .delete()
     .type('Financial Analyst')
-    .delete()
-    .type('Cooking Chef')
-    .delete();
+    .delete();*/
 
     this.httpService.get('../assets/data.json').subscribe(
       data => {

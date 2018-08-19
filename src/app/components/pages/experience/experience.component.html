@@ -2,7 +2,7 @@
   <h2 class="text-center col customHeader">Skillset</h2>
   <div class="card-deck">
     <div class="card text-center" *ngFor="let skill of myJson?.skills; let i = index" [attr.data-index]="i">
-      <div class="card-header mb-2 text-center">{{ skill.level }}</div>
+      <div class="card-header mb-2">{{ skill.level }}</div>
       <img class="card-img-top img-fluid" src="{{ skill.img }}" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title h4">{{ skill.name }}</h5>
@@ -23,7 +23,7 @@
   <h2 class="text-center col customHeader">Sprachkenntnisse</h2>
   <div class="card-deck flag">
     <div class="card text-center" *ngFor="let language of myJson && myJson?.languages; let i = index" [attr.data-index]="i">
-      <div class="card-header mb-2"><kbd>{{ language.name }}</kbd></div>
+      <div class="card-header mb-2">{{ language.name }}</div>
       <img class="card-img-top img-fluid" src="{{ language.img }}" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">{{ language.fluency }}</h5>

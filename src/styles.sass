@@ -5,18 +5,19 @@ html, body
   background: transparent url("./assets/background.jpg") no-repeat fixed center
   background-size: 100% 100%
   text-decoration: none
+  min-height: 600px
+  min-width: 350px
+  @media only screen and (device-aspect-ratio: 40/71) //Iphone 5
+      min-width: 320px
+      max-width: 400px
 
-a
+a, a:link, a:visited, a:hover, a:active
+  text-decoration: none
   color: white !important
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 1)
   font-family: 'Lato', sans-serif
-  &:link and &:visited and &:hover and &:active
-    color: white
-    text-decoration: none
-
 
 .container
-  //border: 1px solid black
   margin-top: 10px
   margin-left: 50px
   margin-right: 50px
@@ -26,7 +27,6 @@ a
 .box
   border: 0.3px solid black
   padding: 10px
-  padding-top: 20px
   padding-bottom: 20px
   margin: 25px
   background: rgba(255,255,255,0.7)
@@ -35,7 +35,6 @@ a
   border: 0.5px solid lightgrey
 
 .customHeader
-  //border: 1px solid black
   background: rgba(255,255,255,0.4)
   -webkit-border-radius: $borderRadius
   -moz-border-radius: $borderRadius
