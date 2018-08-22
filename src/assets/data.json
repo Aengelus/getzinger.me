@@ -23,7 +23,7 @@
   "skills": [
     {
       "name": "Web Design",
-      "img": "../../../../assets/skills/webdesign.PNG",
+      "img": "../../../../assets/skills/webdesign.JPG",
       "description": "In meiner Freizeit beschäftige ich mich sehr gerne mit dem Bereich des Full-Stack Web Developments und informiere mich gerne über neue Technologien.",
       "level": "Fortgeschritten",
       "keywords": [
@@ -37,7 +37,7 @@
     },
     {
       "name": "Coding",
-      "img": "../../../../assets/skills/coding.PNG",
+      "img": "../../../../assets/skills/coding.JPG",
       "description": "Angefangen mit Java im Selflearning, so wie erlangung eines Udacity Zertifikates. Besuch von freifach Kursen an der Uni. Berufliche Verwendung als Developer.",
       "level": "Fortgeschritten",
       "keywords": [
@@ -50,7 +50,7 @@
     },
     {
       "name": "Python",
-      "img": "../../../../assets/skills/python.PNG",
+      "img": "../../../../assets/skills/python.JPG",
       "description": "Berufliche Berührung als Fullstack Python Developer für Material Center Leoben. Backend Entwicklung für Rissfortschrittsentwicklungen. Frontend mit PyQt.",
       "level": "Fortgeschritten",
       "keywords": [
@@ -62,7 +62,7 @@
     },
     {
       "name": "Financial Engineering",
-      "img": "../../../../assets/skills/finance.PNG",
+      "img": "../../../../assets/skills/finance.JPG",
       "description": "Befasse mich seit Jahren mit dem Bereich Finanzwesen, so wie Financial Engineering. Versuche mich ständig weiterzuentwickeln um tiefern in den Bereich des Quantitative Finance zu gelangen.",
       "level": "Professional",
       "keywords": [
@@ -73,7 +73,7 @@
     },
     {
       "name": "Machine Learning",
-      "img": "../../../../assets/skills/neuralNetwork.png",
+      "img": "../../../../assets/skills/neuralNetwork.JPG",
       "description": "Stehe am Anfang den Weg im Bereich des Machine Learning einzuschlagen.",
       "level": "Anfänger",
       "keywords": [
@@ -82,7 +82,7 @@
     },
     {
       "name": "Testing Engineering",
-      "img": "../../../../assets/skills/testing.jpg",
+      "img": "../../../../assets/skills/testing.JPG",
       "description": "Professioneller TestingEngineer für 4 Jahre im Bereich der Testautomatisierung so wie Mobile Virtual Network Operating System.",
       "level": "Professional",
       "keywords": [
@@ -256,14 +256,14 @@
       "name": "Deutsch",
       "fluency": "Muttersprache",
       "level": "C2",
-      "img": "../../../../assets/2000px-Flag_map_of_Germany.svg.png",
+      "img": "../../../../assets/misc/2000px-Flag_map_of_Germany.svg.png",
       "certificate": []
     },
     {
       "name": "English",
       "fluency": "Fließend",
       "level": "C1",
-      "img": "../../../../assets/USA_Flag_Map.svg",
+      "img": "../../../../assets/misc/USA_Flag_Map.svg",
       "certificate": [
         "BEC Vantage Cambridge Certificate"
       ]
@@ -272,14 +272,14 @@
       "name": "Russisch",
       "fluency": "Grundkentnisse",
       "level": "A1",
-      "img": "../../../../assets/Flag-map_of_Russia.png",
+      "img": "../../../../assets/misc/Flag-map_of_Russia.png",
       "certificate": []
     },
     {
       "name": "Spanisch",
       "fluency": "Grundkenntnisse",
       "level": "A1",
-      "img": "../../../../assets/800px-Spain-flag-map-plus-ultra.png",
+      "img": "../../../../assets/misc/800px-Spain-flag-map-plus-ultra.png",
       "certificate": []
     }
   ],
@@ -291,7 +291,7 @@
       "education": [
         "Snowboardlehrer Anwärter"
       ],
-      "img": "../../../../assets/hobby/snowboard.jpg"
+      "img": "../../../../assets/hobby/snowboard.JPG"
     },
     {
       "name": "Karate",
@@ -300,7 +300,7 @@
       "education": [
         "5. Kyu"
       ],
-      "img": "../../../../assets/hobby/karate.jpg"
+      "img": "../../../../assets/hobby/karate.JPG"
     },
     {
       "name": "Kochen",
@@ -308,7 +308,7 @@
       "description": "Da sich die Berufliche Karriere nicht weiter verfolgen ließ verfolge ich weiter den Weg eines passionierten Hobbykochs.",
       "education": [
       ],
-      "img": "../../../../assets/hobby/gastro.jpg"
+      "img": "../../../../assets/hobby/gastro.JPG"
     },
     {
       "name": "Finanzwesen und Finanzmärkte",
@@ -316,7 +316,7 @@
       "description": "Aus persönlichen Interesse angefangen und inzwischen verwende ich einen großteil meiner Freizeit mich mit den Finanzmärkten zu beschäftigen so wie mein persönliches Portfolio zu optimieren und mich weiterzubilden.",
       "education": [
       ],
-      "img": "../../../../assets/hobby/finance.PNG"
+      "img": "../../../../assets/hobby/finance.JPG"
     },
     {
       "name": "World Exploring",
@@ -324,7 +324,7 @@
       "description": "Aufgrund meiner ursprünglichen Herkunft aus dem Bereich der Gastronomy ist auch die Leidenschaft die Welt zu erkunden gewachsen.",
       "education": [
       ],
-      "img": "../../../../assets/hobby/travel.jpg"
+      "img": "../../../../assets/hobby/travel.JPG"
     }
   ]
 }

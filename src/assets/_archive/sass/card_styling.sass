@@ -1,0 +1,60 @@
+$borderRadius: 20px
+
+.card-deck
+
+.card
+  background: rgba(255,255,255,0.8)
+  margin: 10px
+  min-width: 350px
+  max-width: 350px
+  box-shadow: 10px 10px 5px rgba(80,80,80, 0.3)
+  -webkit-border-radius: $borderRadius
+  -moz-border-radius: $borderRadius
+  border-radius: $borderRadius
+
+.card-header
+  -webkit-border-top-left-radius: $borderRadius
+  -webkit-border-top-right-radius: $borderRadius
+  -moz-border-radius-topleft: $borderRadius
+  -moz-border-radius-topright: $borderRadius
+  border-top-left-radius: $borderRadius
+  border-top-right-radius: $borderRadius
+  padding: 20px
+  font-size: 1.2em
+  background: rgba(255,255,255,0.15)
+  font-weight: bold
+
+.card-img-top
+  max-width: 100%
+  max-height: 180px
+  height: auto
+
+.card-title
+  //background: rgba(80,80,80,0.06)
+  font-size: 1.6em
+
+.card-body
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+.card-text
+  font-family: Arial, Helvetica, sans-serif
+  padding: 20px
+
+.card-footer
+  padding: 20px
+  //font-weight: bold
+
+
+@media only screen and (min-width: 400px) and (max-width: 600px)
+  .card
+    background: rgba(255,255,255,0.6)
+    border-radius: 20px
+    margin: 10px
+    min-width: 250px
+
+@media only screen and (max-width: 400px)
+  .card
+    background: rgba(255,255,255,0.6)
+    border-radius: 50px
+    margin: 10px
+    min-width: 150px

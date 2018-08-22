@@ -1,0 +1,330 @@
+{
+  "basics": {
+    "name": "Sascha Getzinger",
+    "label": "Developer / Engineer",
+    "picture": "./self.JPG",
+    "email": "getzinger.sascha@gmail.com",
+    "phone": "+43 (699) 190 90 351",
+    "location": {
+      "address": "Fischergasse 10/5",
+      "postalCode": "8700",
+      "city": "Leoben",
+      "countryCode": "AT",
+      "region": "Styria"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": ""
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Web Design",
+      "img": "../../../../assets/skills/webdesign.PNG",
+      "description": "In meiner Freizeit beschäftige ich mich sehr gerne mit dem Bereich des Full-Stack Web Developments und informiere mich gerne über neue Technologien.",
+      "level": "Fortgeschritten",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "Bootstrap",
+        "Node.js",
+        "Angular 2"
+      ]
+    },
+    {
+      "name": "Coding",
+      "img": "../../../../assets/skills/coding.PNG",
+      "description": "Angefangen mit Java im Selflearning, so wie erlangung eines Udacity Zertifikates. Besuch von freifach Kursen an der Uni. Berufliche Verwendung als Developer.",
+      "level": "Fortgeschritten",
+      "keywords": [
+        "Java",
+        "Python",
+        "Android Development",
+        "Matlab",
+        "Latex"
+      ]
+    },
+    {
+      "name": "Python",
+      "img": "../../../../assets/skills/python.PNG",
+      "description": "Berufliche Berührung als Fullstack Python Developer für Material Center Leoben. Backend Entwicklung für Rissfortschrittsentwicklungen. Frontend mit PyQt.",
+      "level": "Fortgeschritten",
+      "keywords": [
+        "SciPy",
+        "Pandas",
+        "Anaconda",
+        "PyQT"
+      ]
+    },
+    {
+      "name": "Financial Engineering",
+      "img": "../../../../assets/skills/finance.PNG",
+      "description": "Befasse mich seit Jahren mit dem Bereich Finanzwesen, so wie Financial Engineering. Versuche mich ständig weiterzuentwickeln um tiefern in den Bereich des Quantitative Finance zu gelangen.",
+      "level": "Professional",
+      "keywords": [
+        "Technical Analysis",
+        "Fundamental Analysis",
+        "Portfolio Optimisation"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "img": "../../../../assets/skills/neuralNetwork.png",
+      "description": "Stehe am Anfang den Weg im Bereich des Machine Learning einzuschlagen.",
+      "level": "Anfänger",
+      "keywords": [
+        "Neuronal Networks"
+      ]
+    },
+    {
+      "name": "Testing Engineering",
+      "img": "../../../../assets/skills/testing.jpg",
+      "description": "Professioneller TestingEngineer für 4 Jahre im Bereich der Testautomatisierung so wie Mobile Virtual Network Operating System.",
+      "level": "Professional",
+      "keywords": [
+        "Test Engineering",
+        "Test Management",
+        "Manuelles Testen",
+        "Test Automatisierung",
+        "..."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Personal Page",
+      "url": "https://getzinger.me",
+      "description": "",
+      "technology": ""
+    }
+  ],
+  "experience": [
+    {
+      "job": {
+        "type": "Arbeitserfahrung",
+        "details": [
+          {
+            "company": "Material Center Leoben",
+            "position": "Python Softwaredeveloper",
+            "website": "https://www.mcl.at/forschung/simulation/",
+            "startDate": "10 / 2016",
+            "endDate": " 02 / 2018",
+            "summary": "Studentischer Mitarbeiter in der Simulationsgruppe. 10h pro Woche, so wie Vollzeit in den Ferien.",
+            "highlights": [
+              "Fullstack Developer im Bereich Python. Verbesserung Frontend wie Backend.",
+              "Fachbereich Statische Rissfortschrittsentwicklung, Hauseigene Software 'INARA'.",
+              "Einführung von Git in den Entwicklungsprozess."
+            ]
+          },
+          {
+            "company": "I-New Unified Mobile Solutions AG",
+            "position": "Testing Engineer / Test Manager",
+            "website": "https://www.i-new.com/",
+            "startDate": "09 / 2012",
+            "endDate": "10 / 2014",
+            "summary": "Bei I-New handelt es sich um ein International agierendes Unternehmen für die Erstellung von Mobile Virtual Network Operating Software",
+            "highlights": [
+              "Manueller so wie Automatisierter Softwaretest unter Solaris und Centos Umfeld",
+              "Testautomatisierung mit Robotframework",
+              "Integriert im Developer Team",
+              "Verwendung des Projektvorgehensmodels 'Scrum'",
+              "2 Monate OnSide, mit zwei Arbeitskollegen für die Einrichtung, Testing so wie Trainings vor Ort für Virgin Mobile Mexico"
+            ]
+          },
+          {
+            "company": "TRICENTIS Technology & Consulting GmbH",
+            "position": "IT Consultant",
+            "website": "https://www.tricentis.com/de/",
+            "startDate": "09 / 2010",
+            "endDate": "08 / 2012",
+            "summary": "IT Consultant mit Fachbereich fachlicher Softwaretest",
+            "highlights": [
+              "ISTQB Foundation Level Zertifizierung",
+              "OnSite Consultant bei Kundenprojekten im Bereich Testing",
+              "Erstellung von Scripts, so wie Testing Tools unter Java, C# und Batch"
+            ]
+          },
+          {
+            "company": "Bundesministerium für Landesverteidigung und Sport",
+            "position": "Berufssoldat [Hochgebirgsjäger und Ausbilder]",
+            "website": "https://www.tricentis.com/de/",
+            "startDate": "06 / 2009",
+            "endDate": "08 / 2010",
+            "summary": "Berufssoldat für das Kader des Österreichische Bundesheer.",
+            "highlights": [
+              "Geschwaderkommandant- und Sanitätskraftfahrer",
+              "Ausbilder für die Grundwehrdiener in Langenlebarn",
+              "Hochgebirgsjäger (Jägerbataillon 23 / 6. Jägerbrigade in Landeck)",
+              "Abrüstung mit Dienstgrad Korporal",
+              "KEINE Milizpflicht. Reservist."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "job": {
+        "type": "Schule und Ausbildung",
+        "details": [
+          {
+            "company": "Montanuniversität Leoben",
+            "position": "Student [Bachelor of Science]",
+            "website": "https://www.unileoben.ac.at/de/2889/",
+            "startDate": "10 / 2014",
+            "endDate": "vsl. 10 / 2019",
+            "summary": "Student im Bereich 'International Study Program in Petroleum Engineering'",
+            "highlights": [
+              "Freifächer im Bereich Android Development so wie Java Development"
+            ]
+          },
+          {
+            "company": "Vienna Business School",
+            "position": "Berufsreifeprüfung [Abitur | Matura]",
+            "website": "https://www.vbs.ac.at/",
+            "startDate": "11 / 2011",
+            "endDate": "02 / 2014",
+            "summary": "Nachholung der Matura im Form einer Berufsreifeprüfung im Selbststudium.",
+            "highlights": [
+              "Erfolgreicher Abschluss der Berufsreifeprüfung",
+              "Projektarbeit im Bereich des wirtschaftlichen Einflusses durch Testautomatisierung"
+            ]
+          },
+          {
+            "company": "Berufliche Schule Neusäß",
+            "position": "Ausbildung [Kaufmann im Einzelhandel]",
+            "website": "http://www.bsz-neusaess.de/index.php/berufsschulen/27-bs-wirtschaft-verwaltung/bs-einzelhandel-grosshandel",
+            "startDate": "09 / 2006",
+            "endDate": "06 / 2008",
+            "summary": "Ausbildung zum Kaufmann im Einzelhandel mit Schwerpunkt Automobilersatzteilhandel bei einem Mercedes Benz Vertragspartner.",
+            "highlights": [
+              "Verkürzung der Lehrzeit auf 2 Lehrjahre.",
+              "Notendurchschnitt 1,4. Unter den besten 130 (4,9%) Absolventen Deutschlands 2008, einziger mit Lehrzeitverkürzung.",
+              "Mercedes Benz Vertragspartner."
+            ]
+          },
+          {
+            "company": "Realschule Gauting",
+            "position": "Mittlere Reife (Deutschland)",
+            "website": "http://www.rs-gauting.de/",
+            "startDate": "09 / 2000",
+            "endDate": "07 / 2004",
+            "summary": "Erfolgreicher Abschluss der mittleren Reife an der Realschule Gauting.",
+            "highlights": [
+              "Mittlere Reife",
+              "Fachbereich Mathematik/ Technik/ Technisches Zeichnen"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "job": {
+        "type": "Weitere Tätigkeiten",
+        "details": [
+          {
+            "company": "Trans Austria Gasleitung GmbH",
+            "position": "Pflichtpraktikum",
+            "website": "https://www.taggmbh.at/",
+            "startDate": "07 / 2016",
+            "endDate": "09 / 2016",
+            "summary": "Pflichtpraktikum im Bereich SSO (Supervision and System Optimisation).",
+            "highlights": [
+              "Implementierung eines 'Forecast Tools' unter VBA, für die Vorberechnung der 'Waste Heat recovery unit'",
+              "Evaluierung eines Datamangement und Visualisierungs tools"
+            ]
+          },
+          {
+            "company": "Österreichische Hochschülerschaft Leoben",
+            "position": "Sachbearbeiter Übersetzung Deutsch <-> Englisch ",
+            "website": "https://www.oeh-leoben.at/de/deine-oeh/referate/362-referat-fuer-internationale-studierende",
+            "startDate": "10 / 2016",
+            "endDate": "10 / 2017",
+            "summary": "Sachbearbeiter für das Internationalreferat der ÖH-Leoben. Zuständig für Übersetzungen Deutsch <-> Englisch",
+            "highlights": [
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "languages": [
+    {
+      "name": "Deutsch",
+      "fluency": "Muttersprache",
+      "level": "C2",
+      "img": "../../../../assets/2000px-Flag_map_of_Germany.svg.png",
+      "certificate": []
+    },
+    {
+      "name": "English",
+      "fluency": "Fließend",
+      "level": "C1",
+      "img": "../../../../assets/USA_Flag_Map.svg",
+      "certificate": [
+        "BEC Vantage Cambridge Certificate"
+      ]
+    },
+    {
+      "name": "Russisch",
+      "fluency": "Grundkentnisse",
+      "level": "A1",
+      "img": "../../../../assets/Flag-map_of_Russia.png",
+      "certificate": []
+    },
+    {
+      "name": "Spanisch",
+      "fluency": "Grundkenntnisse",
+      "level": "A1",
+      "img": "../../../../assets/800px-Spain-flag-map-plus-ultra.png",
+      "certificate": []
+    }
+  ],
+  "interests": [
+    {
+      "name": "Snowboarden",
+      "subtext": "Wintersport",
+      "description": "Angefangen mit dem Raceboarden und seitdem dabei geblieben. Inzwischen vor allem AllMountain und Raceboarding.",
+      "education": [
+        "Snowboardlehrer Anwärter"
+      ],
+      "img": "../../../../assets/hobby/snowboard.jpg"
+    },
+    {
+      "name": "Karate",
+      "subtext": "Kampfsport",
+      "description": "5. Kyu im Shotokan Karate",
+      "education": [
+        "5. Kyu"
+      ],
+      "img": "../../../../assets/hobby/karate.jpg"
+    },
+    {
+      "name": "Kochen",
+      "subtext": "Gastronomische Vielfalt",
+      "description": "Da sich die Berufliche Karriere nicht weiter verfolgen ließ verfolge ich weiter den Weg eines passionierten Hobbykochs.",
+      "education": [
+      ],
+      "img": "../../../../assets/hobby/gastro.jpg"
+    },
+    {
+      "name": "Finanzwesen und Finanzmärkte",
+      "subtext": "Financial Engineering",
+      "description": "Aus persönlichen Interesse angefangen und inzwischen verwende ich einen großteil meiner Freizeit mich mit den Finanzmärkten zu beschäftigen so wie mein persönliches Portfolio zu optimieren und mich weiterzubilden.",
+      "education": [
+      ],
+      "img": "../../../../assets/hobby/finance.PNG"
+    },
+    {
+      "name": "World Exploring",
+      "subtext": "Gastronomische und Kultur",
+      "description": "Aufgrund meiner ursprünglichen Herkunft aus dem Bereich der Gastronomy ist auch die Leidenschaft die Welt zu erkunden gewachsen.",
+      "education": [
+      ],
+      "img": "../../../../assets/hobby/travel.jpg"
+    }
+  ]
+}

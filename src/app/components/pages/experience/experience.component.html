@@ -24,14 +24,11 @@
   <div class="card-deck flag">
     <div class="card text-center" *ngFor="let language of myJson && myJson?.languages; let i = index" [attr.data-index]="i">
       <div class="card-header mb-2">{{ language.name }}</div>
-      <img class="card-img-top img-fluid" src="{{ language.img }}" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title">{{ language.fluency }}</h5>
-        <h6 class="card-subtitle mb-2 text-muted"></h6>
-        <p class="card-text text-left" *ngIf="language.certificate!=0"><strong>Zertifikate</strong></p>
-        <ul *ngFor="let cert of language.certificate">
-          <li>{{ cert }}</li>
-        </ul>
+        <div *ngFor="let cert of language.certificate">
+          <p class="card-text" *ngIf="language.certificate!=0">{{ cert }}</p>
+        </div>
       </div>
       <div class="card-footer mb-2 text-muted">
           Sprachlevel: {{ language.level }}
