@@ -12,6 +12,8 @@ export class CVComponent implements OnInit {
   constructor (private httpService: HttpClient) { }
   myJson: any = [];
 
+  fun: Function = () => console.log('Hello');
+
   ngOnInit () {
     this.httpService.get('../assets/data.json').subscribe(
       data => {

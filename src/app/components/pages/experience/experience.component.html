@@ -6,7 +6,7 @@
       <img class="card-img-top img-fluid" src="{{ skill.img }}" alt="Card image cap">
       <div class="card-body">
         <h5 class="card-title h4">{{ skill.name }}</h5>
-        <p class="card-text">{{ skill.description }}</p>
+        <p class="card-text text-left">{{ skill.description }}</p>
       </div>
         <button class="btn" type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
             Zeig mir deinen<br/>
@@ -26,8 +26,11 @@
       <div class="card-header mb-2">{{ language.name }}</div>
       <div class="card-body">
         <h5 class="card-title">{{ language.fluency }}</h5>
-        <div *ngFor="let cert of language.certificate">
-          <p class="card-text" *ngIf="language.certificate!=0">{{ cert }}</p>
+        <div class="card-text text-left">
+            {{ language.description }}
+          <div class="" *ngFor="let cert of language.certificate">
+            <br/><p class="font-weight-bold" *ngIf="language.certificate!=0">{{ cert }}</p>
+          </div>
         </div>
       </div>
       <div class="card-footer mb-2 text-muted">
