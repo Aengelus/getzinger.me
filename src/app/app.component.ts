@@ -7,7 +7,7 @@ import { Router, NavigationEnd } from '@angular/router';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  title = 'Personal Webpage';
+  //title = 'Sascha Getzinger InfoPage';
 
   constructor(private router: Router) {
     this.router.events.subscribe(event => {

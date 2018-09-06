@@ -1,17 +1,33 @@
-<div class="container col box">
-  <div class="row">
-    <div class="col-md-2 text-center business-card pull-left">
-      <img class="img-fluid" src="../../../../assets/self.JPG" />
-      <ul class="description">
-        <li> {{ myJson.basics?.name }} </li>
-        <li> {{ myJson.basics?.label }} </li>
-        <li> {{ myJson.basics?.phone }} </li>
-        <li><a href='mailto:{{myJson.basics?.email}}?subject=Contact via getzinger.info'>{{ myJson.basics?.email }}</a></li>
-        <li> {{ myJson.basics?.location.address }} </li>
-        <li> {{ myJson.basics?.location.postalCode }} {{ myJson.basics?.location.city }} </li>
-      </ul>
+<div class="">
+  <h2 class="customHeader text-center ">{{ myJson.basics?.name }}<br/>{{ myJson.basics?.label }}</h2>
+  <div class="container-fluid business-card">
+    <div class="row justify-content-center">
+      <div class="col-sx-12 col-sm-12 col-md-3">
+        <img class="mx-auto d-block img-fluid" src="../../../../assets/self.JPG" />
+      </div>
+<!--
+  <div class="custom-bar">
+    <h2>{{ myJson.basics?.name }} | {{ myJson.basics?.label }}</h2>
+  </div>
+-->
+      <div class="col-md-7 box">
+        <h4 class="text-center">"There are no problems, only solutions nobody thought about before."</h4><br/>
+        <p>Meine Ausbildung ist Engineering, meine Jobtätigkeit Softwareentwickler und meine Freizeit widme ich dem Finanzwesen.<br/>
+            Durch das interdisziplinäre Denken, versuche ich diese Bereiche im Beruf so wie im Privatleben zu verknüpfen um im Bereich
+            Quantitative Finance so wie Machine Learning erfolgreich zu werden.</p>
+        <hr>
+        <ul class="description text-right">
+          <li> {{ myJson.basics?.location.address }} </li>
+          <li> {{ myJson.basics?.location.postalCode }} {{ myJson.basics?.location.city }} </li>
+          <li> {{ myJson.basics?.phone }} </li>
+            <li><a href='mailto:{{myJson.basics?.email}}?subject=Contact via getzinger.info'>{{ myJson.basics?.email }}</a></li>
+          </ul>
+      </div>
     </div>
-    <div class="col pull-right">
+  </div>
+
+  <div class="row">
+    <div class="col">
       <div class="chapter" *ngFor="let chapter of myJson && myJson?.experience">
         <h2 class="customHeader text-center">{{ chapter.job.type }}</h2>
         <div class="container col-md-12" *ngFor="let detail of chapter.job.details">
@@ -20,7 +36,7 @@
             <h4 class="customHeader chapter-header">{{ detail.company }}</h4>
           </a>
           <div class="row">
-            <div class="col-md-3 row chapter-date">
+            <div class="col-md-2 row chapter-date">
               <div class="pull-left">{{ detail.startDate }}</div><div class="col text-center">-</div><div class="pull-right">{{ detail.endDate }}</div>
             </div>
             <div class="col chapter-description">

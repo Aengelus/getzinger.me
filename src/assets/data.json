@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Sascha Getzinger",
-    "label": "Developer / Engineer",
+    "label": "Developer & Financial Enthusiast",
     "picture": "./self.JPG",
     "email": "getzinger.sascha@gmail.com",
     "phone": "+43 (699) 190 90 351",
@@ -24,73 +24,84 @@
     {
       "name": "Web Design",
       "img": "../../../../assets/skills/webdesign.JPG",
-      "description": "In meiner Freizeit beschäftige ich mich sehr gerne mit dem Bereich des Full-Stack Web Developments und informiere mich gerne über neue Technologien.",
+      "description": "Angefangen mit HTML, CSS, JavaScript und ersten Schritten in PHP.\nInzwischen schaue ich, dass ich mein Wissen in den Bereichen Angular [Frontend] so wie NodeJS [Backend] vertiefe.\nGrundverständnis von Meteor so wie Flask [Python].",
       "level": "Fortgeschritten",
       "keywords": [
         "HTML5",
         "CSS3",
         "Javascript",
-        "Bootstrap",
+        "Bootstrap 4",
         "Node.js",
-        "Angular 2"
+        "Angular",
+        "Meteor",
+        "MongoDB",
+        "MySQL"
       ]
     },
     {
       "name": "Coding",
       "img": "../../../../assets/skills/coding.JPG",
-      "description": "Angefangen mit Java im Selflearning, so wie erlangung eines Udacity Zertifikates. Besuch von freifach Kursen an der Uni. Berufliche Verwendung als Developer.",
+      "description": "Java autodidaktisch beigebracht, so wie Udacity Zertifikat erlangt. Freifächer mit Spezialisierung JavaDevelopment so wie Android Development.\nBerufliche Tätigkeit als Python Developer.\nErstellung jeglicher Studiendokumentationen mit Latex.",
       "level": "Fortgeschritten",
       "keywords": [
         "Java",
         "Python",
         "Android Development",
         "Matlab",
-        "Latex"
+        "Latex",
+        "JavaScript"
       ]
     },
     {
       "name": "Python",
       "img": "../../../../assets/skills/python.JPG",
-      "description": "Berufliche Berührung als Fullstack Python Developer für Material Center Leoben. Backend Entwicklung für Rissfortschrittsentwicklungen. Frontend mit PyQt.",
+      "description": "Beruflich tätig als Python Developer. Backend Entwicklung im Bereich der statischen so wie dynamischen Rissfortschrittsentwicklung [Bruchmechanik].\nFrontend berührung mit PyQt.\nSklearn so wie scientific Stack knowledge aufgrund vom Machine Learning.",
       "level": "Fortgeschritten",
       "keywords": [
         "SciPy",
+        "Sklearn",
         "Pandas",
         "Anaconda",
-        "PyQT"
+        "PyQT",
+        "Jupyter Notebook"
       ]
     },
     {
       "name": "Financial Engineering",
       "img": "../../../../assets/skills/finance.JPG",
-      "description": "Befasse mich seit Jahren mit dem Bereich Finanzwesen, so wie Financial Engineering. Versuche mich ständig weiterzuentwickeln um tiefern in den Bereich des Quantitative Finance zu gelangen.",
+      "description": "Angefangen aufgrund von persönlichem Interesse.\nWeiterbildung durch 'AI for Trading'-Nanodegree von Udacity.",
       "level": "Professional",
       "keywords": [
         "Technical Analysis",
         "Fundamental Analysis",
-        "Portfolio Optimisation"
+        "Portfolio Optimisation",
+        "Quantitative Finance"
       ]
     },
     {
       "name": "Machine Learning",
       "img": "../../../../assets/skills/neuralNetwork.JPG",
-      "description": "Stehe am Anfang den Weg im Bereich des Machine Learning einzuschlagen.",
+      "description": "Mache derzeit den 'Machine Learning Engineer'-Nanodegree von Udacity.\nAufgrund meiner bisherigen Tätigkeiten und meinem großen Interesse an Informatik, war es offensichtlich sich in diesem Bereich weiterzubilden um weiterhin TopNotch Material für die Branche sein zu wollen.",
       "level": "Anfänger",
       "keywords": [
+        "Supervised Learning",
+        "Algorithm(Linear, Perceptron, Decision Trees, SVM)",
+        "Sklearn[Python]",
         "Neuronal Networks"
       ]
     },
     {
       "name": "Testing Engineering",
       "img": "../../../../assets/skills/testing.JPG",
-      "description": "Professioneller TestingEngineer für 4 Jahre im Bereich der Testautomatisierung so wie Mobile Virtual Network Operating System.",
+      "description": "Berufstätigkeit als professioneller TestingEngineer für 4 Jahre im Bereich der Testautomatisierung so wie Mobile Virtual Network Operating Systems.",
       "level": "Professional",
       "keywords": [
         "Test Engineering",
         "Test Management",
         "Manuelles Testen",
         "Test Automatisierung",
-        "..."
+        "(Test) Consulting",
+        "Test Mangement"
       ]
     }
   ],
@@ -105,19 +116,35 @@
   "experience": [
     {
       "job": {
-        "type": "Arbeitserfahrung",
+        "type": "Berufserfahrung",
         "details": [
           {
             "company": "Material Center Leoben",
-            "position": "Python Softwaredeveloper",
+            "position": "Python Developer - Teilzeit",
             "website": "https://www.mcl.at/forschung/simulation/",
             "startDate": "10 / 2016",
-            "endDate": " 02 / 2018",
-            "summary": "Studentischer Mitarbeiter in der Simulationsgruppe. 10h pro Woche, so wie Vollzeit in den Ferien.",
+            "endDate": " 03 / 2018",
+            "summary": "Das Material Center in Leoben ist eine Wissenschaftliche Einrichtung welche sich auf den Bereich der Materialforschung so wie Rissfortschritsentwicklung spezialisiert hat.",
             "highlights": [
-              "Fullstack Developer im Bereich Python. Verbesserung Frontend wie Backend.",
-              "Fachbereich Statische Rissfortschrittsentwicklung, Hauseigene Software 'INARA'.",
-              "Einführung von Git in den Entwicklungsprozess."
+              "Erweiterung von CCGS (Cyclic Crack Growth Software) um den Bereich statische Bruchmechanik.",
+              "Bugfix so wie Erweiterungen im Bereich der dynamischen Bruchmechanik so wie Rissfortschrittsentwicklung.",
+              "FrontEnd Design und Weiterentwicklung unter Verwendung von 'wxPython' / 'pyQt5'.",
+              "Integration von Git version management.",
+              "Erstellung einer GitPage für die online Dokumentation der MCL Software.",
+              "Python Software Stack: Python 2.7 | Python 3.6 / Anaconda, Pandas, Numpy."
+            ]
+          },
+          {
+            "company": "Trans Austria Gasleitung GmbH",
+            "position": "Praktikum im Bereich SSO (Supervision and System Optimisation)",
+            "website": "https://www.taggmbh.at/",
+            "startDate": "07 / 2016",
+            "endDate": "09 / 2016",
+            "summary": "Trans Austria Gasleitung GmbH ist einer der wichtigsten Gas Provisioning Unternehmen in Europa, spezialisiert im Bereich des Transports so wie der Überwachung und Analayse.",
+            "highlights": [
+              "Implementierung eines Tools für die Berechnung der zukünftigen Energieerzeugung der 'Waste Heat Recovery Unit'. Vollständige Implementierung als VBA Excel Tool.",
+              "Training für das BI-Tool QlikView.",
+              "Darstellung des Europäischen Gasleitungsnetzes in e!Sankey diagramme mithilfe von Entsog daten."
             ]
           },
           {
@@ -126,13 +153,12 @@
             "website": "https://www.i-new.com/",
             "startDate": "09 / 2012",
             "endDate": "10 / 2014",
-            "summary": "Bei I-New handelt es sich um ein International agierendes Unternehmen für die Erstellung von Mobile Virtual Network Operating Software",
+            "summary": "I-New ist ein internationeles Unternehmen welches auf die Erstellung und Implementierung von MVNO (Virtual Mobile Network Operation) Software und Hardware spezialisiert ist.",
             "highlights": [
-              "Manueller so wie Automatisierter Softwaretest unter Solaris und Centos Umfeld",
-              "Testautomatisierung mit Robotframework",
-              "Integriert im Developer Team",
-              "Verwendung des Projektvorgehensmodels 'Scrum'",
-              "2 Monate OnSide, mit zwei Arbeitskollegen für die Einrichtung, Testing so wie Trainings vor Ort für Virgin Mobile Mexico"
+              "3 Monate on site Team für die Implementierung eines MVNO für Virgin Mobile Mexico. Zuständig in Mexico City für Bereich.\n(Acceptance) Testing | Software Integration und Operation | Testmangement so wie Einschulung der DevOps vor Ort.",
+              "Tester im Development Team für die Bereiche IVR und USSD.",
+              "Durchführung von Kundenpräsentationen/Einschulungen so wie Erstellung von 'HowTo' Dokumenten.",
+              "Verwendung des Projektvorgehensmodels 'Scrum'"
             ]
           },
           {
@@ -141,11 +167,12 @@
             "website": "https://www.tricentis.com/de/",
             "startDate": "09 / 2010",
             "endDate": "08 / 2012",
-            "summary": "IT Consultant mit Fachbereich fachlicher Softwaretest",
+            "summary": "Tricentis ist der Entwickler der Tosca Testsuite, welche weltweit für den Bereich der Testautomatisierung zum Einsatz kommt.",
             "highlights": [
-              "ISTQB Foundation Level Zertifizierung",
-              "OnSite Consultant bei Kundenprojekten im Bereich Testing",
-              "Erstellung von Scripts, so wie Testing Tools unter Java, C# und Batch"
+              "Blackbox so wie funktionelles Testing.",
+              "Test der Tosca Testsuite",
+              "Wartung, automation so wie Erstellung und Erweiterung von Testcases.",
+              "Regelmäßige Testdurchführung für Kunden vor Ort."
             ]
           },
           {
@@ -154,13 +181,13 @@
             "website": "https://www.tricentis.com/de/",
             "startDate": "06 / 2009",
             "endDate": "08 / 2010",
-            "summary": "Berufssoldat für das Kader des Österreichische Bundesheer.",
+            "summary": "Das Bundesministerium für Landesverteidung und Sport ist die Österreichische Version des Militärs.",
             "highlights": [
-              "Geschwaderkommandant- und Sanitätskraftfahrer",
-              "Ausbilder für die Grundwehrdiener in Langenlebarn",
-              "Hochgebirgsjäger (Jägerbataillon 23 / 6. Jägerbrigade in Landeck)",
-              "Abrüstung mit Dienstgrad Korporal",
-              "KEINE Milizpflicht. Reservist."
+              "Ausbilder Grundwehrdiener (BA1).",
+              "Rang: Kooperal.",
+              "Hochgebirgsjäger im Jägerbataillon 23 der 6. Jägerbrigade",
+              "Kraftfahrer für Sanitätskraftwagen so wie Geschwaderkommandant.",
+              "KEINE Milizpflicht. ofiziell Reservist."
             ]
           }
         ]
@@ -178,7 +205,10 @@
             "endDate": "vsl. 10 / 2019",
             "summary": "Student im Bereich 'International Study Program in Petroleum Engineering'",
             "highlights": [
-              "Freifächer im Bereich Android Development so wie Java Development"
+              "Freifächer im Bereich Android Development so wie Java Development",
+              "Ersten 4 Semester, Ingenieur Grundlagen: Chemie, Mathematik, Physik, Mechanik so wie Softwareentwicklung mit Java und Grundlagen der Wirtschaft.",
+              "Weiteren 3 Semester, Spezialisierung: Drilling und Reservoir Engineering, Oil und Gas Produktion so wie Vertiefungen im Bereich Thermodynamic, etc.",
+              "Freier Mitarbeiter am international Referat der ÖH für den Bereich Übersetzungen Deutsch <--> Englisch"
             ]
           },
           {
@@ -220,35 +250,6 @@
           }
         ]
       }
-    },
-    {
-      "job": {
-        "type": "Weitere Tätigkeiten",
-        "details": [
-          {
-            "company": "Trans Austria Gasleitung GmbH",
-            "position": "Pflichtpraktikum",
-            "website": "https://www.taggmbh.at/",
-            "startDate": "07 / 2016",
-            "endDate": "09 / 2016",
-            "summary": "Pflichtpraktikum im Bereich SSO (Supervision and System Optimisation).",
-            "highlights": [
-              "Implementierung eines 'Forecast Tools' unter VBA, für die Vorberechnung der 'Waste Heat recovery unit'",
-              "Evaluierung eines Datamangement und Visualisierungs tools"
-            ]
-          },
-          {
-            "company": "Österreichische Hochschülerschaft Leoben",
-            "position": "Sachbearbeiter Übersetzung Deutsch <-> Englisch ",
-            "website": "https://www.oeh-leoben.at/de/deine-oeh/referate/362-referat-fuer-internationale-studierende",
-            "startDate": "10 / 2016",
-            "endDate": "10 / 2017",
-            "summary": "Sachbearbeiter für das Internationalreferat der ÖH-Leoben. Zuständig für Übersetzungen Deutsch <-> Englisch",
-            "highlights": [
-            ]
-          }
-        ]
-      }
     }
   ],
   "languages": [
@@ -257,6 +258,7 @@
       "fluency": "Muttersprache",
       "level": "C2",
       "img": "../../../../assets/misc/2000px-Flag_map_of_Germany.svg.png",
+      "description": "",
       "certificate": []
     },
     {
@@ -264,6 +266,7 @@
       "fluency": "Fließend",
       "level": "C1",
       "img": "../../../../assets/misc/USA_Flag_Map.svg",
+      "description": "",
       "certificate": [
         "BEC Vantage Cambridge Certificate"
       ]
@@ -273,6 +276,7 @@
       "fluency": "Grundkentnisse",
       "level": "A1",
       "img": "../../../../assets/misc/Flag-map_of_Russia.png",
+      "description": "",
       "certificate": []
     },
     {
@@ -280,6 +284,7 @@
       "fluency": "Grundkenntnisse",
       "level": "A1",
       "img": "../../../../assets/misc/800px-Spain-flag-map-plus-ultra.png",
+      "description": "",
       "certificate": []
     }
   ],
@@ -287,7 +292,7 @@
     {
       "name": "Snowboarden",
       "subtext": "Wintersport",
-      "description": "Angefangen mit dem Raceboarden und seitdem dabei geblieben. Inzwischen vor allem AllMountain und Raceboarding.",
+      "description": "Ein Raceboard was mit 20cm zu lang war, die erste StepIn-Bindung am Markt, für welche ich zu leicht war, und Kinderkurs war ein Fremdwort.\nDas beschreibt etwas die Zeit wo ich das erste mal auf dem Snowboard stand.\nHabe mich die ersten 8 Jahre sehr auf dem Racebereich spezialisiert und inzwischen gelegentlich Race und sonst AllMountain.",
       "education": [
         "Snowboardlehrer Anwärter"
       ],
@@ -295,17 +300,17 @@
     },
     {
       "name": "Karate",
-      "subtext": "Kampfsport",
-      "description": "5. Kyu im Shotokan Karate",
+      "subtext": "Kampfkunst",
+      "description": "Ich war schon immer sehr im Bereich der Kampfkünste interessiert. Die Kombination aus Körper und Geist um als eine Einheit zu funktionieren stellt oft eine besondere Art der Konzentration dar.\nKarate ist hier ein guter Ausgleich um den Kopf frei zu bekommen.",
       "education": [
-        "5. Kyu"
+        "5. Kyu im Shotokan Karate"
       ],
       "img": "../../../../assets/hobby/karate.JPG"
     },
     {
       "name": "Kochen",
       "subtext": "Gastronomische Vielfalt",
-      "description": "Da sich die Berufliche Karriere nicht weiter verfolgen ließ verfolge ich weiter den Weg eines passionierten Hobbykochs.",
+      "description": "Schon als Kind war ich begeistert wie Gerichte entstehen, diese Leidenschaft ist durch meine kurze Tätigkeit als Koch im Le Meridien München und persönliches Interesse immer weiter getrieben worden.\nAls passionierter Hobbykoch versuche ich mich ständig weiter zu entwickeln um neue Creationen zu erschaffen.",
       "education": [
       ],
       "img": "../../../../assets/hobby/gastro.JPG"
@@ -313,7 +318,7 @@
     {
       "name": "Finanzwesen und Finanzmärkte",
       "subtext": "Financial Engineering",
-      "description": "Aus persönlichen Interesse angefangen und inzwischen verwende ich einen großteil meiner Freizeit mich mit den Finanzmärkten zu beschäftigen so wie mein persönliches Portfolio zu optimieren und mich weiterzubilden.",
+      "description": "Ich habe mich schon von klein auf gewundert wie werden Leute reich. Somit war der Weg in die Welt der Finanzen schon vorprogrammiert.\nInzwischen beschäftige ich mich seit einigen Jahren mit der Aktienanalyse so wie Investitionen und dem Finanzwesen ansich.\nVersteht man wie finanzen funktionieren, ist man in der Lage die Welt mit anderen Augen zu sehen.",
       "education": [
       ],
       "img": "../../../../assets/hobby/finance.JPG"
@@ -321,7 +326,7 @@
     {
       "name": "World Exploring",
       "subtext": "Gastronomische und Kultur",
-      "description": "Aufgrund meiner ursprünglichen Herkunft aus dem Bereich der Gastronomy ist auch die Leidenschaft die Welt zu erkunden gewachsen.",
+      "description": "Durch mein Passion für das Kochen habe ich angefangen mich mit den die kulinarischen Eigenheiten der Kulturen auseinanderzusetzen.\nDie Küche eines Landes zu sehen, gibt viele Aufschlüsse darüber aus welcher Kultur diese kommt, sogar über die Vegetation des Landes.",
       "education": [
       ],
       "img": "../../../../assets/hobby/travel.JPG"
