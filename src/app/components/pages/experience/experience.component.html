@@ -1,41 +1,47 @@
-<div class="container col">
-  <h2 class="text-center col customHeader">Skillset</h2>
-  <div class="card-deck">
-    <div class="card text-center" *ngFor="let skill of myJson?.skills; let i = index" [attr.data-index]="i">
-      <div class="card-header mb-2">{{ skill.level }}</div>
-      <img class="card-img-top img-fluid" src="{{ skill.img }}" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title h4">{{ skill.name }}</h5>
-        <p class="card-text text-left">{{ skill.description }}</p>
-      </div>
+<div class="container-fluid">
+  <div>
+    <h2 class="text-center col customHeader position-sticky fixed-top">Skillset</h2>
+    <div class="card-deck">
+      <div class="card text-center" *ngFor="let skill of myJson?.skills; let i = index" [attr.data-index]="i">
+        <div class="card-header mb-2">{{ skill.level }}</div>
+        <img class="card-img-top img-fluid" src="{{ skill.img }}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title h4">{{ skill.name }}</h5>
+          <p class="card-text text-left">{{ skill.description }}</p>
+        </div>
         <button class="btn" type="button" data-toggle="collapse" data-target="#collapse" aria-expanded="false" aria-controls="collapse">
-            Zeig mir deinen<br/>
-            Tech Stack
-          </button>
+          Zeig mir deinen<br/>
+          Tech Stack
+        </button>
         <div class="card-footer collapse" id="collapse">
           <ul *ngFor="let key of skill.keywords">
             <li>{{key}}</li>
           </ul>
         </div>
+      </div>
     </div>
   </div>
+
   <p></p>
-  <h2 class="text-center col customHeader">Sprachkenntnisse</h2>
-  <div class="card-deck flag">
-    <div class="card text-center" *ngFor="let language of myJson && myJson?.languages; let i = index" [attr.data-index]="i">
-      <div class="card-header mb-2">{{ language.name }}</div>
-      <div class="card-body">
-        <h5 class="card-title">{{ language.fluency }}</h5>
-        <div class="card-text text-left">
+
+  <div>
+    <h2 class="text-center col customHeader position-sticky fixed-top">Sprachkenntnisse</h2>
+    <div class="card-deck flag">
+      <div class="card text-center" *ngFor="let language of myJson && myJson?.languages; let i = index" [attr.data-index]="i">
+        <div class="card-header mb-2">{{ language.name }}</div>
+        <div class="card-body">
+          <h5 class="card-title">{{ language.fluency }}</h5>
+          <div class="card-text text-left">
             {{ language.description }}
-          <div class="" *ngFor="let cert of language.certificate">
-            <br/><p class="font-weight-bold" *ngIf="language.certificate!=0">{{ cert }}</p>
+            <div class="" *ngFor="let cert of language.certificate">
+              <br/><p class="font-weight-bold" *ngIf="language.certificate!=0">{{ cert }}</p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="card-footer mb-2 text-muted">
+        <div class="card-footer mb-2 text-muted">
           Sprachlevel: {{ language.level }}
+        </div>
       </div>
     </div>
   </div>
-</div>
+  </div>
