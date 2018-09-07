@@ -1,5 +1,5 @@
 <div class="" id="top">
-  <a href="cv#top" class="go-top" id="go-top"><div class="alpha pull-right"><i class="fa fa-arrow-up"></i></div></a>
+  <a routerLink="/top" class="go-top" id="go-top"><div class="alpha pull-right"><i class="fa fa-arrow-up"></i></div></a>
   <div class="container-fluid business-card">
       <h2 class="customHeader text-center position-sticky fixed-top">{{ myJson.basics?.name }}<br/>{{ myJson.basics?.label }}</h2>
     <div class="row justify-content-center">
@@ -14,8 +14,8 @@
       <div class="col-md-7 box">
         <h4 class="text-center" id="mantra">"There are no problems, only solutions nobody thought about before."</h4><br/>
         <p>Meine Ausbildung ist Engineering, meine Jobtätigkeit Softwareentwickler und meine Freizeit widme ich dem Finanzwesen.<br/>
-          Durch das interdisziplinäre Denken, versuche ich diese Bereiche im Beruf so wie im Privatleben zu verknüpfen um im Bereich
-          Quantitative Finance so wie Machine Learning erfolgreich zu werden.</p>
+          Durch das interdisziplinäre Denken versuche ich, diese Bereiche im Beruf und Privatleben zu verknüpfen, um im Bereich
+          Quantitative Finance sowie Machine Learning erfolgreich zu werden.</p>
           <hr>
           <ul class="description text-right">
             <li><i class="fa fa-map-marker" style="font-size:1.3em"></i> {{ myJson.basics?.location.address }} </li>
@@ -23,6 +23,12 @@
             <li> <i class="fa fa-mobile" style="font-size:1.5em"></i> {{ myJson.basics?.phone }} </li>
             <li><i class="fa fa-envelope"></i><a href='mailto:{{myJson.basics?.email}}?subject=Contact via getzinger.info'>{{ myJson.basics?.email }}</a></li>
           </ul>
+          <div class="pull-right">
+            <br/>
+            <a href="../../../../assets/resume_de.pdf" target='_blank' class="cv badge badge-pill badge-info">Deutscher CV [pdf]</a>
+            <span class="col-1"></span>
+            <a href="../../../../assets/resume_en.pdf" target='_blank' class="cv badge badge-pill badge-info">Englischer CV [pdf]</a>
+          </div>
         </div>
       </div>
     </div>

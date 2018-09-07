@@ -55,7 +55,7 @@
     {
       "name": "Python",
       "img": "../../../../assets/skills/python.JPG",
-      "description": "Beruflich tätig als Python Developer. Backend Entwicklung im Bereich der statischen so wie dynamischen Rissfortschrittsentwicklung [Bruchmechanik].\nFrontend berührung mit PyQt.\nSklearn so wie scientific Stack knowledge aufgrund vom Machine Learning.",
+      "description": "Beruflich tätig als Python Developer. Backend Entwicklung im Bereich der statischen sowie dynamischen Rissfortschrittsentwicklung [Bruchmechanik].\nFrontend Grundlagen mit PyQt.\nSklearn sowie scientific Stack knowledge aufgrund des Machine Learnings.",
       "level": "Fortgeschritten",
       "keywords": [
         "SciPy",
@@ -81,7 +81,7 @@
     {
       "name": "Machine Learning",
       "img": "../../../../assets/skills/neuralNetwork.JPG",
-      "description": "Mache derzeit den 'Machine Learning Engineer'-Nanodegree von Udacity.\nAufgrund meiner bisherigen Tätigkeiten und meinem großen Interesse an Informatik, war es offensichtlich sich in diesem Bereich weiterzubilden um weiterhin TopNotch Material für die Branche sein zu wollen.",
+      "description": "Derzeit mache ich den 'Machine Learning Engineer'-Nanodegree von Udacity.\nAufgrund meiner bisherigen Tätigkeiten und meinem großen Interesse an Informatik, war es der nächste logische Schritt, sich in diesem Bereich weiterzubilden um weiterhin TopNotch Material für die Branche sein zu wollen.",
       "level": "Anfänger",
       "keywords": [
         "Supervised Learning",
@@ -93,7 +93,7 @@
     {
       "name": "Testing Engineering",
       "img": "../../../../assets/skills/testing.JPG",
-      "description": "Berufstätigkeit als professioneller TestingEngineer für 4 Jahre im Bereich der Testautomatisierung so wie Mobile Virtual Network Operating Systems.",
+      "description": "Berufstätigkeit als professioneller TestingEngineer für vier Jahre im Bereich der Testautomatisierung sowie Mobile Virtual Network Operating Systems.",
       "level": "Professional",
       "keywords": [
         "Test Engineering",
@@ -124,13 +124,13 @@
             "website": "https://www.mcl.at/forschung/simulation/",
             "startDate": "10 / 2016",
             "endDate": " 03 / 2018",
-            "summary": "Das Material Center in Leoben ist eine Wissenschaftliche Einrichtung welche sich auf den Bereich der Materialforschung so wie Rissfortschritsentwicklung spezialisiert hat.",
+            "summary": "Das Material Center (MCL) in Leoben ist eine wissenschaftliche Einrichtung, welche sich auf den Bereich der Materialforschung, unter anderem Rissfortschrittsentwicklung spezialisiert hat.",
             "highlights": [
               "Erweiterung von CCGS (Cyclic Crack Growth Software) um den Bereich statische Bruchmechanik.",
-              "Bugfix so wie Erweiterungen im Bereich der dynamischen Bruchmechanik so wie Rissfortschrittsentwicklung.",
+              "Bugfix und Erweiterungen im Bereich der dynamischen Bruchmechanik sowie Rissfortschrittsentwicklung.",
               "FrontEnd Design und Weiterentwicklung unter Verwendung von 'wxPython' / 'pyQt5'.",
               "Integration von Git version management.",
-              "Erstellung einer GitPage für die online Dokumentation der MCL Software.",
+              "Erstellung einer GitPage für die Onlinedokumentation der MCL-Software.",
               "Python Software Stack: Python 2.7 | Python 3.6 / Anaconda, Pandas, Numpy."
             ]
           },
@@ -140,11 +140,11 @@
             "website": "https://www.taggmbh.at/",
             "startDate": "07 / 2016",
             "endDate": "09 / 2016",
-            "summary": "Trans Austria Gasleitung GmbH ist einer der wichtigsten Gas Provisioning Unternehmen in Europa, spezialisiert im Bereich des Transports so wie der Überwachung und Analayse.",
+            "summary": "Die Trans Austria Gasleitung GmbH ist eines der wichtigsten Gas Provisioning Unternehmen in Europa, spezialisiert auf den Transport von gas sowie der Überwachung und Analayse.",
             "highlights": [
               "Implementierung eines Tools für die Berechnung der zukünftigen Energieerzeugung der 'Waste Heat Recovery Unit'. Vollständige Implementierung als VBA Excel Tool.",
               "Training für das BI-Tool QlikView.",
-              "Darstellung des Europäischen Gasleitungsnetzes in e!Sankey diagramme mithilfe von Entsog daten."
+              "Darstellung des Europäischen Gasleitungsnetzes in e!Sankey diagramme mithilfe von Entsog Daten."
             ]
           },
           {
@@ -153,12 +153,12 @@
             "website": "https://www.i-new.com/",
             "startDate": "09 / 2012",
             "endDate": "10 / 2014",
-            "summary": "I-New ist ein internationeles Unternehmen welches auf die Erstellung und Implementierung von MVNO (Virtual Mobile Network Operation) Software und Hardware spezialisiert ist.",
+            "summary": "I-New ist ein internationales Unternehmen, das auf die Erstellung und Implementierung von MVNO (Virtual Mobile Network Operation) Software und Hardware spezialisiert ist.",
             "highlights": [
-              "3 Monate on site Team für die Implementierung eines MVNO für Virgin Mobile Mexico. Zuständig in Mexico City für Bereich.\n(Acceptance) Testing | Software Integration und Operation | Testmangement so wie Einschulung der DevOps vor Ort.",
+              "Drei Monate on site Team für die Implementierung eines MVNO für Virgin Mobile Mexico. Zuständig in Mexico City für Bereich.\n(Acceptance) Testing | Software Integration und Operation | Testmangement so wie Einschulung der DevOps vor Ort.",
               "Tester im Development Team für die Bereiche IVR und USSD.",
-              "Durchführung von Kundenpräsentationen / Einschulungen so wie Erstellung von 'HowTo' Dokumenten.",
-              "Verwendung des Projektvorgehensmodels 'Scrum'"
+              "Durchführung von Kundenpräsentationen und Einschulungen sowie die Erstellung von 'HowTo' Dokumenten.",
+              "Verwendung des Projektvorgehensmodells 'Scrum'"
             ]
           },
           {
@@ -171,7 +171,7 @@
             "highlights": [
               "Blackbox so wie funktionelles Testing.",
               "Test der Tosca Testsuite",
-              "Wartung, automation so wie Erstellung und Erweiterung von Testcases.",
+              "Wartung, Automation sowie Erstellung und Erweiterung von Testcases.",
               "Regelmäßige Testdurchführung für Kunden vor Ort."
             ]
           },
@@ -181,13 +181,13 @@
             "website": "https://www.tricentis.com/de/",
             "startDate": "06 / 2009",
             "endDate": "08 / 2010",
-            "summary": "Das Bundesministerium für Landesverteidung und Sport ist die Österreichische Version des Militärs.",
+            "summary": "Das Bundesministerium für Landesverteidung und Sport ist unter anderem für die Verwaltung des Bundesheeres zuständig.",
             "highlights": [
-              "Ausbilder Grundwehrdiener (BA1).",
+              "Ausbildung von Grundwehrdienern (BA1).",
               "Rang: Kooperal.",
               "Hochgebirgsjäger im Jägerbataillon 23 der 6. Jägerbrigade",
-              "Kraftfahrer für Sanitätskraftwagen so wie Geschwaderkommandant.",
-              "KEINE Milizpflicht. ofiziell Reservist."
+              "Kraftfahrer für Sanitätskraftwagen sowie Geschwaderkommandant.",
+              "KEINE Milizpflicht. Offiziell Reservist."
             ]
           }
         ]
@@ -206,9 +206,9 @@
             "summary": "Student im Bereich 'International Study Program in Petroleum Engineering'",
             "highlights": [
               "Freifächer im Bereich Android Development so wie Java Development",
-              "Ersten 4 Semester, Ingenieur Grundlagen: Chemie, Mathematik, Physik, Mechanik so wie Softwareentwicklung mit Java und Grundlagen der Wirtschaft.",
-              "Weiteren 3 Semester, Spezialisierung: Drilling und Reservoir Engineering, Oil und Gas Produktion so wie Vertiefungen im Bereich Thermodynamic, etc.",
-              "Freier Mitarbeiter am international Referat der ÖH für den Bereich Übersetzungen Deutsch <--> Englisch"
+              "Die ersten vier Semester beinhalten ingenieurstechnische Grundlagen wie Chemie, Mathematik, Physik, Mechanik, Softwareentwicklung mit Java sowie Grundlagen der Wirtschaft.",
+              "In den weiteren drei Semestern erfolgt eine Spezialisierung auf Drilling und Reservoir Engineering, Oil und Gas Produktion sowie Vertiefungen im Bereich Thermodynamic, etc.",
+              "Freier Mitarbeiter am internationalen Referat der ÖH für den Bereich Übersetzungen Deutsch <--> Englisch"
             ]
           },
           {
@@ -217,10 +217,10 @@
             "website": "https://www.vbs.ac.at/",
             "startDate": "11 / 2011",
             "endDate": "02 / 2014",
-            "summary": "Nachholung der Matura im Form einer Berufsreifeprüfung im Selbststudium.",
+            "summary": "Nachholung der Matura in Form einer Berufsreifeprüfung im Selbststudium.",
             "highlights": [
               "Erfolgreicher Abschluss der Berufsreifeprüfung",
-              "Projektarbeit im Bereich des wirtschaftlichen Einflusses durch Testautomatisierung"
+              "Projektarbeit über den wirtschaftlichen Einfluss durch Testautomatisierung"
             ]
           },
           {
@@ -229,11 +229,11 @@
             "website": "http://www.bsz-neusaess.de/index.php/berufsschulen/27-bs-wirtschaft-verwaltung/bs-einzelhandel-grosshandel",
             "startDate": "09 / 2006",
             "endDate": "06 / 2008",
-            "summary": "Ausbildung zum Kaufmann im Einzelhandel mit Schwerpunkt Automobilersatzteilhandel bei einem Mercedes Benz Vertragspartner.",
+            "summary": "Ausbildung zum Kaufmann im Einzelhandel mit Schwerpunkt Automobilersatzteilhandel bei einem Mercedes Benz-Vertragspartner.",
             "highlights": [
-              "Verkürzung der Lehrzeit auf 2 Lehrjahre.",
+              "Verkürzung der Lehrzeit auf zwei Lehrjahre.",
               "Notendurchschnitt 1,4. Unter den besten 130 (4,9%) Absolventen Deutschlands 2008, einziger mit Lehrzeitverkürzung.",
-              "Mercedes Benz Vertragspartner."
+              "Mercedes Benz-Vertragspartner."
             ]
           },
           {
@@ -258,7 +258,7 @@
       "fluency": "Muttersprache",
       "level": "C2",
       "img": "../../../../assets/misc/2000px-Flag_map_of_Germany.svg.png",
-      "description": "Muttersprache, ohne akzent und mit hochdeutschen Dialekt.",
+      "description": "",
       "certificate": []
     },
     {
@@ -266,7 +266,7 @@
       "fluency": "Fließend",
       "level": "C1",
       "img": "../../../../assets/misc/USA_Flag_Map.svg",
-      "description": "Berufliche so wie Universitäre Notwendigkeit. Da mein Studiengang ausschließlich auf Englisch ist, so wie das Unternehmen für welches ich gearbeitet habe nur auf Englisch kommuniziert hat, ist hier eine Verhandlungssichere Basis notwenig. ",
+      "description": "Berufliche sowie universitäre Notwendigkeit. Da mein Studiengang ausschließlich auf Englisch ist, so wie das Unternehmen für welches ich gearbeitet habe nur auf Englisch kommuniziert hat, ist hier eine Verhandlungssichere Basis notwenig. ",
       "certificate": [
         "BEC Vantage Cambridge Certificate"
       ]
@@ -276,7 +276,7 @@
       "fluency": "Grundkentnisse",
       "level": "A1",
       "img": "../../../../assets/misc/Flag-map_of_Russia.png",
-      "description": "Aus persönlichem Interesse angefangen. Grundwissen so wie Lesen des kyrillischen Alphabets.",
+      "description": "Begonnen aus persönlichem Interesse. Grundwissen sowie Kenntnis des kyrillischen Alphabets.",
       "certificate": []
     },
     {
@@ -292,7 +292,7 @@
     {
       "name": "Snowboarden",
       "subtext": "Wintersport",
-      "description": "Ein Raceboard was mit 20cm zu lang war, die erste StepIn-Bindung am Markt, für welche ich zu leicht war, und Kinderkurs war ein Fremdwort.\nDas beschreibt etwas die Zeit wo ich das erste mal auf dem Snowboard stand.\nHabe mich die ersten 8 Jahre sehr auf dem Racebereich spezialisiert und inzwischen gelegentlich Race und sonst AllMountain.",
+      "description": "Ein Raceboard, das mir 20cm zu lang war, die erste StepIn-Bindung am Markt, für welche ich zu leicht war - und 'Kinderkurs' war damals ein Fremdwort.\nDas beschreibt in etwa die Zeit, in der ich das erste Mal auf dem Snowboard stand. In den ersten acht Jahren habe ich mich auf den Racebereich spezialisiert, inzwischen bin ich meist mit dem AllMountain-Board und gelegentlich noch mit dem Raceboard unterwegs.",
       "education": [
         "Snowboardlehrer Anwärter"
       ],
@@ -301,7 +301,7 @@
     {
       "name": "Karate",
       "subtext": "Kampfkunst",
-      "description": "Ich war schon immer sehr im Bereich der Kampfkünste interessiert. Die Kombination aus Körper und Geist um als eine Einheit zu funktionieren stellt oft eine besondere Art der Konzentration dar.\nKarate ist hier ein guter Ausgleich um den Kopf frei zu bekommen.",
+      "description": "Kampfkünste haben mich schon immer sehr interessiert, vor allem die Kombination aus Körper und Geist, um als eine Einheit zu funktionieren. Obwohl es oft viel Konzentration erfordert, ist Karate ein guter Ausgleich um den Kopf frei zu bekommen.",
       "education": [
         "5. Kyu im Shotokan Karate"
       ],
@@ -310,7 +310,7 @@
     {
       "name": "Kochen",
       "subtext": "Gastronomische Vielfalt",
-      "description": "Schon als Kind war ich begeistert wie Gerichte entstehen, diese Leidenschaft ist durch meine kurze Tätigkeit als Koch im Le Meridien München und persönliches Interesse immer weiter getrieben worden.\nAls passionierter Hobbykoch versuche ich mich ständig weiter zu entwickeln um neue Creationen zu erschaffen.",
+      "description": "Schon als Kind war ich von der Entstehungsweise außergewöhnlicher Gerichte begeistert. Diese Begeisterung ist durch meine kurze Tätigkeit als Koch im Le Meridien München und mein persönliches Interesse immer mehr zu einer Leidenschaft geworden. Als passionierter Hobbykoch versuche ich, mich ständig weiterzuentwickeln, um neue Kreationen zu erschaffen.",
       "education": [
       ],
       "img": "../../../../assets/hobby/gastro.JPG"
@@ -318,15 +318,15 @@
     {
       "name": "Finanzwesen und Finanzmärkte",
       "subtext": "Financial Engineering",
-      "description": "Ich habe mich schon von klein auf gewundert wie werden Leute reich. Somit war der Weg in die Welt der Finanzen schon vorprogrammiert.\nInzwischen beschäftige ich mich seit einigen Jahren mit der Aktienanalyse so wie Investitionen und dem Finanzwesen ansich.\nVersteht man wie finanzen funktionieren, ist man in der Lage die Welt mit anderen Augen zu sehen.",
+      "description": "Ich habe mich schon von klein auf gewundert, wie Leute reich werden. Somit war für mich der Weg in die Welt der Finanzen schon vorprogrammiert.\nInzwischen beschäftige ich mich seit einigen Jahren mit der Aktienanalyse sowie Investitionen und dem Finanzwesen an sich.\nVersteht man, wie das Finanzen funktioniert, ist man in der Lage die Welt mit anderen Augen zu sehen.",
       "education": [
       ],
       "img": "../../../../assets/hobby/finance.JPG"
     },
     {
       "name": "World Exploring",
-      "subtext": "Gastronomische und Kultur",
-      "description": "Durch mein Passion für das Kochen habe ich angefangen mich mit den die kulinarischen Eigenheiten der Kulturen auseinanderzusetzen.\nDie Küche eines Landes zu sehen, gibt viele Aufschlüsse darüber aus welcher Kultur diese kommt, sogar über die Vegetation des Landes.",
+      "subtext": "Kulinarik und Kultur",
+      "description": "Durch meine Passion für das Kochen habe ich angefangen, mich mit den kulinarischen Eigenheiten gewisser Kulturen auseinanderzusetzen.\nDie Gerichte eines Landes geben viele Einblicke in die kulturellen Hintergründe und sogar die Vegetation einer Region.",
       "education": [
       ],
       "img": "../../../../assets/hobby/travel.JPG"

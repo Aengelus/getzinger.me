@@ -17,6 +17,7 @@ const routes: Routes = [
   { path: 'cv', component: CVComponent},
   { path: 'experience', component: ExperienceComponent},
   { path: 'private', component: PrivateComponent},
+  { path: 'top', redirectTo: '/cv#top'},
 //  { path: 'contact', component: ContactComponent},
 //  { path: 'projects', component: ProjectsComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' },
